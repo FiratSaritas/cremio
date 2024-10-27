@@ -1,0 +1,286 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #2980b9, #2c3e50);
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #3498db; /* Background color when active or hovered */
+    color: white; /* Change text color when active */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+
+.hero {
+    position: relative;
+    height: 60vh;
+    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    padding-left: 5%;
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.intro {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.intro .btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.partners {
+    background-color: #ecf0f1;
+    padding: 40px;
+    text-align: center;
+}
+
+.reviews {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.chat-bubble-left,
+.chat-bubble-right {
+    max-width: 60%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.chat-bubble-left {
+    background-color: #f1f1f1;
+    margin-left: 0;
+    text-align: left;
+}
+
+.chat-bubble-right {
+    background-color: #d4edda;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Team Section */
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Kontakt Form Container */
+.contact-form {
+    max-width: 600px; /* Optional: Set a max width for better appearance */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add padding for inner spacing */
+    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
+    border-radius: 8px; /* Optional: Rounds the corners of the border */
+    background-color: #f9f9f9; /* Optional: Background color for the form */
+}
+
+/* Ensure the inputs and text area have consistent margin */
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Inner padding for inputs */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border style for inputs */
+    border-radius: 5px; /* Rounding the corners */
+}
+
+/* Button styling */
+.contact-form button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #3498db;
+}
+
+footer {
+    background-color: #1f2d3d;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+
+/* Team Section Centering */
+.team-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member p {
+    text-align: center;
+}
+body 
+/* Dienstleistungen Layout */
+.service {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.service img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.service p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.service .btn {
+    margin-top: 15px;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Kundenbewertungen Alignment */
+.chat-bubble-left {
+    background-color: #f1f1f1;
+    margin-left: 0;
+    text-align: left;
+    padding: 15px;
+    max-width: 60%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* Center the h1 headings */
+.centered {
+    text-align: center;
+}
+
+/* Dienstleistungen Layout with Images on Left and Text on Right */
+.service-content {
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    margin-bottom: 40px; /* Space between services */
+    border: 1px solid #ddd; /* Optional: Adds a border around each service */
+    border-radius: 8px; /* Optional: Rounds the corners of the border */
+    padding: 20px; /* Space inside the border */
+    background-color: #f9f9f9; /* Optional: Background color for separation */
+}
+
+.service-image {
+    flex: 0 0 60px; /* Set width to 60px for smaller images */
+    height: 60px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensures the image scales well */
+    margin-right: 20px; /* Space between image and text */
+    border-radius: 5px; /* Optional: Rounds the image corners */
+}
+
+.service-text {
+    flex: 1; /* Allow text to take the remaining space */
+}
+
+/* Centered content in contact and about */
+.contact-form, .team {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Button Style */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3498db;
+}
