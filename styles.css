@@ -284,3 +284,8 @@ body
 .btn:hover {
     background-color: #3498db;
 }
+
+img
+{
+    padding:25px;
+}
