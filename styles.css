@@ -132,9 +132,6 @@ nav ul li a:hover {
     max-width: 600px; /* Optional: Set a max width for better appearance */
     margin: 0 auto; /* Center the form */
     padding: 20px; /* Add padding for inner spacing */
-    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
-    border-radius: 8px; /* Optional: Rounds the corners of the border */
-    background-color: #f9f9f9; /* Optional: Background color for the form */
 }
 
 /* Ensure the inputs and text area have consistent margin */
