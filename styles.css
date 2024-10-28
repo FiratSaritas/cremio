@@ -193,7 +193,7 @@ body
 /* Dienstleistungen Layout */
 .service {
     text-align: center;
-    max-width: 800px;
+    max-width: 1500px;
     margin: 0 auto 40px;
 }
 
@@ -285,7 +285,46 @@ body
     background-color: #3498db;
 }
 
-img
-{
-    padding:25px;
+/* Style for the nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add padding as needed */
+}
+
+/* Left-side logo styling */
+.nav-left .logo {
+    height: 40px; /* Adjust the height as needed */
+}
+
+/* Style for the navigation links */
+.nav-right ul {
+    display: flex;
+    list-style: none;
+    gap: 15px; /* Space between each link */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Adjust link color */
+}
+
+/* Active link styling */
+.nav-right ul li a.active {
+    font-weight: bold;
+}
+
+.team-image {
+    text-align: center; /* Center the content */
+    margin: 20px 0; /* Add some space above and below the image */
+}
+
+.team-image img.group-pic {
+    max-width: 100%; /* Limit the maximum width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 400px; /* Set a maximum height to prevent it from getting too tall */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
 }
